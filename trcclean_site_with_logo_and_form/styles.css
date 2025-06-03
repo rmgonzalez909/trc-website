@@ -1,0 +1,90 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+    color: #333;
+}
+header {
+    background-color: #800000;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+main {
+    padding: 2em;
+}
+.services ul {
+    list-style-type: none;
+    padding: 0;
+}
+.services li {
+    background: #e0e0e0;
+    margin: 0.5em 0;
+    padding: 0.5em;
+}
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1em;
+}
+.gallery-grid img {
+    width: 100%;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+.contact, footer {
+    margin-top: 2em;
+}
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.logo {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding: 1em 0;
+}
+
+.testimonials blockquote {
+    background: #fff;
+    padding: 1em;
+    margin: 1em 0;
+    border-left: 5px solid #800000;
+    font-style: italic;
+}
+.testimonials span {
+    display: block;
+    margin-top: 0.5em;
+    font-weight: bold;
+    color: #555;
+}
+.quote form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.quote input, .quote textarea {
+    padding: 0.75em;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+}
+.quote button {
+    background-color: #800000;
+    color: white;
+    border: none;
+    padding: 0.75em;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+}
+.quote button:hover {
+    background-color: #a00000;
+}
